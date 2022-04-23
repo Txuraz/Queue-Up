@@ -44,7 +44,7 @@
               </div>
               <div class="input-box">
                 <span class="details">Phone Number</span>
-                <input type="text" placeholder="Enter your number" required>
+                <input type="text" placeholder="Enter your number" name="name" required>
               </div>
               <div class="input-box">
                 <span class="details">Password</span>
@@ -78,7 +78,7 @@
             <div class="button">
               <input type="submit" value="Register">
             </div>
-
+                <p>Already have account ?<a href="#">Login !</a></p>
           </form>
         </div>
       </div>
@@ -106,7 +106,7 @@
               <div class="modal-text">
                 <p> "Queue Up" is a web-based application that generates the digitized 
                   token for the people standing in queue and notifies them when their turn is about to 
-                  arrive. First a person has to scan aQR code which assigns them a token and as per their
+                  arrive. First a person has to scan a key given by admin which assigns them a token and as per their
                   token number they will be notified when their turn is about to arrive. </p>
 
                   <p>The objective of this project is to develop a web-based application which will try
@@ -124,14 +124,14 @@
           </div>
         <div class="showcase-login card">
             <h2>Get a Token</h2>
-            <form>
+            <form method="post">
                 <div class="form-control">
                     <input type="text" name="name" placeholder="Username" required>
                 </div>
                 <div class="form-control">
                     <input type="password" name="password" placeholder="Password" required>
                 </div>
-                <input type="submit" value="Login" class="btn btn-primary">
+                <input type="submit" value="Login" class="btn btn-primary"> <button class="temp-btn"><a href="admin.html">Admin Panel</a></button>
                 <div class="form-text">
                     <p>Haven't register Yet ? &nbsp; <a href="#form-modal"><b>Register Now !</b></a></p>
                 </div>
@@ -176,7 +176,7 @@
             <a href="#prob-modal" class="btn btn-dark">Read More</a>
         </div>
         
-        <img src="https://www.kindpng.com/picc/m/25-254250_white-search-icon-transparent-magnifying-glass-search-icon.png" alt="">
+        <img src="images/problem.png" alt="">
     </div>
     <div id="prob-modal" class="modal-window">
         <div>
@@ -204,10 +204,22 @@
         <div class="card">
             <h4>Suraj Acharya</h4>
             <i class="fas fa-face-grin fa-3x"></i>   <!--Replace with image later-->
+            <h5>Follow</h5>
+            <div class="follow-social">
+            <a href="#"><i class="fab fa-facebook "></i></a>
+            <a href="#"><i class="fab fa-instagram "></i></a>
+            <a href="#"><i class="fab fa-viber "></i></a>
+        </div>
         </div>
         <div class="card">
             <h4>Suraj Kapali</h4>
-            <i class="fas fa-face-smile fa-3x"></i>   <!--Replace with image later-->
+            <i class="fas fa-face-smile fa-3x"></i> <br>  <!--Replace with image later-->
+            <h5>Follow</h5>
+            <div class="follow-social">
+            <a href="#"><i class="fab fa-linkedin "></i></a>
+            <a href="#"><i class="fab fa-instagram "></i></a>
+            <a href="#"><i class="fab fa-viber "></i></a>
+        </div>
         </div>
     </div>
 </section>

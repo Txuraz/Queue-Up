@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin | Users</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+        <style>
+            main button{
+                width: 150px;
+                font-size: 20px;
+                border: 1px solid black;
+                border-radius: 10px;
+                background: red;
+            }
+
+            main button:hover{
+                background: purple;
+            }
+        </style>
+
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><span class="lab la-quinscape "> <span>Queue-Up</span></span></h2>
+        </div>
+        <div class="sidebar-menu">
+            <ul class="navbar">
+                <li class="nav-item active">
+                    <a href="admin.html" > <span class="las la-igloo"></span>
+                        <span>Dashboard</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="users.html"> <span class="las la-users"></span>
+                        <span>Users</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="status.html"> <span class="las la-signal"></span>
+                        <span>Queue Status</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="key.html"> <span class="las la-key"></span>
+                        <span>Generate Key</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="acount.html"> <span class="las la-user-circle"></span>
+                        <span>Account</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+                Dashboard
+            </h2>
+            <div class="search-wrapper">
+                <span class="las la-search"></span>
+                <input type="search" placeholder="Search Here" />
+            </div>
+            <div class="user-wrapper">
+                <img src="images/problem.png" width="40px" height="40px" alt="">
+                <div>
+                    <h4>Suraj kapali</h4>
+                    <small>Super Admin</small>
+                </div>
+            </div>
+            
+        </header>
+        <main>
+           <center> <button>Log out</button></center>
+        </main>
+</body>
+</html>

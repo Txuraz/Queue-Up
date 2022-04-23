@@ -356,3 +356,14 @@ color: #000;
 .footer .social a{
     margin: 0 10px;
 }
+
+.follow-social a:hover{
+    color: red;
+    margin: 0 8px;
+}
+
+.showcase-login button{
+    border-radius: 5px;
+    padding: 5px;
+    height: 35px;
+}

@@ -29,6 +29,7 @@
     padding: 2em;
     background: var(--primary-color);
     overflow: auto;
+    font-family: 'Poppins',sans-serif;
   }
   
   .modal-close {
@@ -60,3 +61,6 @@
       text-align: justify;
   }
   
+  .modal-window h1{
+    font-weight: bold;
+  }

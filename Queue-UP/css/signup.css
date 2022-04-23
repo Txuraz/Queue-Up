@@ -1,11 +1,9 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
 }
-
 
 .s-window {
     position: fixed;
@@ -35,6 +33,7 @@
     background: var(--primary-color);
     overflow: auto;
     border-radius: 10px;
+    font-family: 'Poppins',sans-serif;
   }
   
   .modal-close {
@@ -66,8 +65,6 @@
       text-align: justify;
   }
 
-
-/* Sign-Up form ko lagi */
 
 .container .title{
   font-size: 25px;
@@ -169,3 +166,6 @@ form .input-box span.details{
   background: var(--light-color);
   }
 
+form a{
+  font-weight: bold;
+}
