@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 :root {
-    --primary-color : #000 ;
+    --primary-color : purple ;
     --secondary-color : #9400D3 ;
     --dark-color : #4B0082;
     --light-color : 	#9932CC;
@@ -206,12 +206,18 @@ table{
 }
 
 .card-header button {
-    background: var(--primary-color);
+    background: var(--dark-color);
     border-radius: 10px;
     color: azure;
     font-size: 13px;
+    cursor: pointer;
     padding: 8px 16px;
     border: 1px solid var(--primary-color);
+}
+
+.card-header button:hover {
+    background-color: var(--light-color);
+    color: beige;
 }
 
 thead tr{
@@ -328,9 +334,21 @@ td .status.purple {
     border-radius: 3px;
  }
 
- 
+ #absent {
+    padding: 3px;
+    margin-top: 6px;
+    background: purple;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+ }
+
+
  #finish:hover,
- #cancel:hover
+ #cancel:hover,
+ #absent:hover
  {
      color: #000;
      cursor: pointer;
